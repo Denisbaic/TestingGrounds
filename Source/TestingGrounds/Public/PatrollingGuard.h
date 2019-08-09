@@ -13,7 +13,7 @@ UCLASS()
 class TESTINGGROUNDS_API APatrollingGuard : public ATP_ThirdPersonCharacter
 {
 	GENERATED_BODY()
-
+public:
 		UPROPERTY(EditInstanceOnly, Category="Patrol Routes")
 		TArray<AActor*> PatrollingPoints_CPP;
 };
